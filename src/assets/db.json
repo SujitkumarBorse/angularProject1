@@ -1,0 +1,26 @@
+[
+      {
+            "id": 1,
+            "firstName": "Sujitkumar",
+            "lastName": "Borse",
+            "designation": "Angular Developer",
+            "contact": 9028725588,
+            "address": "Pune"
+      },
+      {
+            "id": 1,
+            "firstName": "Krishna",
+            "lastName": "Gajre",
+            "designation": "Python Developer",
+            "contact": 9527669676,
+            "address": "Pune"
+      },
+      {
+            "id": 1,
+            "firstName": "Amol",
+            "lastName": "Borse",
+            "designation": "MEAN Stack Developer",
+            "contact": 7588579585,
+            "address": "Pune"
+      }
+]

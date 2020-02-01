@@ -1,0 +1,22 @@
+<table class="table table-hover">
+  <tr>
+    <!-- <th>Sr.No.</th> -->
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Designation</th>
+    <th>Address</th>
+    <th>Contact</th>
+    <th class="text-warning">Edit</th>
+    <th class="text-danger">Delete</th>
+  </tr>
+  <tr *ngFor="let emp of allEmployee;let i = index">
+    <!-- <td>{{i + 1}}</td> -->
+    <td>{{emp.firstName}}</td>
+    <td>{{emp.lastName}}</td>
+    <td>{{emp.address}}</td>
+    <td>{{emp.designation}}</td>
+    <td>{{emp.contact}}</td>
+    <td><a class="btn text-warning" (click)="edit(emp)"><i class="fa fa-edit"></i></a></td>
+    <td><a class="btn text-danger" (click)="deleteEmployee(emp.id)"><i class="fa fa-trash"></i></a></td>
+  </tr>
+</table>
